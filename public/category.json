@@ -1,0 +1,29 @@
+[
+    {
+    "id": "1",
+    "name": "Accounts & Finance",
+    "picture": "accounts 1.png",
+    "jobs_available": 120
+    },
+    
+    {
+    "id": "2",
+    "name": "Software Engineer",
+    "picture": "chip 1.png",
+    "jobs_available": 90
+    },
+    
+    {
+    "id": "3",
+    "name": "Marketing & Sales",
+    "picture": "business 1.png",
+    "jobs_available": 240
+    },
+    
+    {
+    "id": "4",
+    "name": "Social Media Manager",
+    "picture": "social-media 1.png",
+    "jobs_available": "100+"
+    } 
+]
