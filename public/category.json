@@ -8,7 +8,7 @@
     
     {
     "id": "2",
-    "name": "Software Engineer",
+    "name": "Engineering Jobs",
     "picture": "chip 1.png",
     "jobs_available": 90
     },
@@ -16,14 +16,14 @@
     {
     "id": "3",
     "name": "Marketing & Sales",
-    "picture": "business 1.png",
+    "picture": "social-media 1.png",
     "jobs_available": 240
     },
     
     {
     "id": "4",
-    "name": "Social Media Manager",
-    "picture": "social-media 1.png",
+    "name": "Creative Design",
+    "picture": "business 1.png",
     "jobs_available": "100+"
     } 
 ]

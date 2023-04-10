@@ -1,0 +1,69 @@
+[
+    {
+        "id": "1",
+        "company_logo": "google-1-1 1.png",
+        "company_name": "Google LLC",
+        "company_email": "google@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Technical Database Engineer",
+        "type": "Remote",
+        "timing": "Full Time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100K - 150K",
+        "job_description": "An Technical Database Engineer is responsible for working in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret.The ultimate goal is to make data accessible so that organizations can use it to evaluate and optimize their performance.",
+        "job_responsibility": "Handling the tasks pertaining to the technical and physical side of the database. It includes updating it regularly and fixing bugs in the program by ensuring that the experts are knowledgeable about system architecture and their responsibility is basically to take care of the database in the company.",
+        "educational_requirement": "Bachelor degree to complete any reputational university.",
+        "experience": "2-3 Years in this field."
+    },
+    {
+        "id": "2",
+        "company_logo": "netflix-4 1.png",
+        "company_name": "Netflix",
+        "company_email": "netflix@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Senior Product Designer",
+        "type": "Onsite",
+        "timing": "Full Time",
+        "location": "Dhaka, Bangladesh",
+        "salary": "100K - 150K",
+        "job_description": "A product designer makes a practical and functional product as artistic and attractive to a consumer as possible. It takes creativity, consumer-savvy, and the know-how to take a product from ideation all the way to production. To break things down further, the product development usually starts with that idea.",
+        "job_responsibility": "Responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.",
+        "educational_requirement": "Masters degree to complete any reputational university.",
+        "experience": "4-5 Years in this field."
+    },
+
+
+    {
+        "id": "3",
+        "company_logo": "tesla-9 1.png",
+        "company_name": "Tesla",
+        "company_email": "tesla@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Software Engineer",
+        "type": "Remote",
+        "timing": "Full Time",
+        "location": "California, USA",
+        "salary": "180K - 250K",
+        "job_description": "To design and create computer systems and applications to solve real-world problems. Software engineers, sometimes called software developers, create software for computers and applications.",
+        "job_responsibility": "Responsibilities include create software using the right programming languages, platforms and architectures. Not only do they build their systems, but they also develop, test, improve and maintain software by other engineers.The role of a software engineer is to design and maintain software systems and evaluate the new systems before launching them in the market.",
+        "educational_requirement": "Masters degree to complete any reputational university.",
+        "experience": "2-5 Years in this field."
+    },
+
+    {
+        "id": "4",
+        "company_logo": "tesla-9 1.png",
+        "company_name": "Tesla",
+        "company_email": "tesla@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Mechanical Engineer",
+        "type": "Onsite",
+        "timing": "Full Time",
+        "location": "Toronto, ON",
+        "salary": "120K - 200K",
+        "job_description": "To design power-producing machines, such as electric generators, internal combustion engines, and steam and gas turbines, as well as power-using machines, such as refrigeration and air-conditioning systems. Mechanical engineers design other machines inside buildings, such as elevators and escalators.",
+        "job_responsibility": "Responsibilities include research, design, develop, manufacture and install mechanical components and systems. Mechanical engineers design, develop and install machinery. This can range from the components in artificial heart valves to heating systems for multi-storey buildings and robotic instruments for use in space.",
+        "educational_requirement": "Bachelor degree to complete any reputational university.",
+        "experience": "1-2 Years in this field."
+    }
+]
