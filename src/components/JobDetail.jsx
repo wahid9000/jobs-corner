@@ -3,7 +3,7 @@ import { faCalendarWeek, faDollarSign, faEnvelope, faLocationDot, faPhone } from
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-const JobDetail = ({jobData}) => {
+const JobDetail = ({jobData, handleAppliedJobsBtn}) => {
     return (
         <div>
             <div> 
@@ -35,7 +35,7 @@ const JobDetail = ({jobData}) => {
                             <p className='py-2'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> <span className='font-semibold'>Address</span> : {jobData.location}</p>
                         </div>   
                     </div>
-                    <Link><button className='btn-md bg-blue-600 text-white w-[100%] mt-5'>Apply Now</button></Link> 
+                    <Link to='/applied'><button onClick={()=>handleAppliedJobsBtn(jobData.id)} className='btn-md bg-blue-600 text-white w-[100%] mt-5'>Apply Now</button></Link> 
                 </div>
                 
                 

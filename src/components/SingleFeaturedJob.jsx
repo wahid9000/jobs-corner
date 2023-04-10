@@ -15,7 +15,7 @@ const SingleFeaturedJob = ({singlefeaturedJob}) => {
                 <p className='border py-1 px-2 text-blue-600 rounded-md border-gray-400'>{timing}</p>
             </div>
             <div className='flex gap-6 my-3'>
-              <p><FontAwesomeIcon className='' icon={faLocationDot}></FontAwesomeIcon> {location}</p>  
+              <p><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> {location}</p>  
               <p><FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> Salary : {salary}</p>
             </div>
 
