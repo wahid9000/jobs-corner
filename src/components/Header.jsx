@@ -12,9 +12,9 @@ const Header = () => {
                         </label>
                         <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li><Link to="/">Home</Link></li>
-                            <li><Link>Applied Jobs</Link></li>
-                            <li><Link>Statistics</Link></li>
-                            <li><Link>Blog</Link></li>
+                            <li><Link to="/applied">Applied Jobs</Link></li>
+                            <li><Link to="/stat">Statistics</Link></li>
+                            <li><Link to="/blogs">Blog</Link></li>
                         </ul>
                     </div>
                     <Link to="/" className="btn btn-ghost normal-case text-xl">JobsCorner</Link>
@@ -23,8 +23,8 @@ const Header = () => {
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/applied">Applied Jobs</Link></li>
-                        <li><Link>Statistics</Link></li>
-                        <li><Link>Blog</Link></li>
+                        <li><Link to="/stat">Statistics</Link></li>
+                        <li><Link to="/blogs">Blog</Link></li>
                     </ul>
                 </div>
                 <div className="navbar-end">

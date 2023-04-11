@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
 import JobDetail from './JobDetail';
 import { addToDb } from '../utils/fakedb';
+import { toast } from 'react-hot-toast';
 
 const JobDetails = () => {
     const params = useParams();
@@ -15,6 +16,7 @@ const JobDetails = () => {
 
     const handleAppliedJobsBtn = (id) => {
         addToDb(id);
+        toast('You have successfully applied to the Job.')
     }
     
     return (

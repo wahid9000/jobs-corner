@@ -85,18 +85,18 @@
 
     {
         "id": "6",
-        "company_logo": "google-1-1 1.png",
-        "company_name": "Google LLC",
-        "company_email": "google@gmail.com",
-        "company_phone": "01998-654-565",
-        "job_title": "Electrical Engineer",
+        "company_logo": "Group 10021.png",
+        "company_name": "Airbnb LLC",
+        "company_email": "airbnb@gmail.com",
+        "company_phone": "01698-684-565",
+        "job_title": "Professional Video Editor",
         "type": "OnSite",
         "timing": "Full Time",
-        "location": "NewYork, US",
-        "salary": "180K - 270K",
-        "job_description": "An Electrical Engineer is responsible for working in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret.The ultimate goal is to make data accessible so that organizations can use it to evaluate and optimize their performance.",
+        "location": "Michigan, US",
+        "salary": "100K - 180K",
+        "job_description": "A Professsional Video Editor is responsible for working in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret.The ultimate goal is to make data accessible so that organizations can use it to evaluate and optimize their performance.",
         "job_responsibility": "Handling the tasks pertaining to the technical and physical side of the database. It includes updating it regularly and fixing bugs in the program by ensuring that the experts are knowledgeable about system architecture and their responsibility is basically to take care of the database in the company.",
         "educational_requirement": "Masters degree to complete any reputational university.",
-        "experience": "4-5 Years in this field."
+        "experience": "1-2 Years in this field."
     }
 ]
