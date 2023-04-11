@@ -7,9 +7,12 @@ const AppliedJobs = () => {
     console.log({appliedJobsArray});
     return (
         <div>
-            <h2 className='text-3xl font-bold mt-15'>Applied Jobs</h2>
-            <div className='mt-15'>
-                <div>
+            <div className='pt-12 pb-12 bg-gray-100'>
+                <h2 className='text-3xl font-bold'>Applied Jobs</h2>
+            </div>
+            
+            <div>
+                <div className='pt-16'>
                     {
                         appliedJobsArray.map(appliedJob => <AppliedJobsItem
                         key={appliedJob.id}

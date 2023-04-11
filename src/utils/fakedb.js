@@ -9,6 +9,17 @@ const addToDb = id => {
     if(storedAppliedJobs){
         appliedJobs = JSON.parse(storedAppliedJobs)
     }
+    
+    //add quantity
+    const quantity = appliedJobs[id]; 
+
+    if(quantity){
+        const newQuantity = quantity + 1;
+        appliedJobs[id] = newQuantity;
+    } 
+    else{
+        appliedJobs[id] = 1;
+    }
 
     //set data in local storage
 

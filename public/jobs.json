@@ -65,5 +65,38 @@
         "job_responsibility": "Responsibilities include research, design, develop, manufacture and install mechanical components and systems. Mechanical engineers design, develop and install machinery. This can range from the components in artificial heart valves to heating systems for multi-storey buildings and robotic instruments for use in space.",
         "educational_requirement": "Bachelor degree to complete any reputational university.",
         "experience": "1-2 Years in this field."
+    },
+    {
+        "id": "5",
+        "company_logo": "netflix-4 1.png",
+        "company_name": "Netflix",
+        "company_email": "netflix@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Motion Graphic Designer",
+        "type": "Remote",
+        "timing": "Full Time",
+        "location": "Venice, Italy",
+        "salary": "80K - 120K",
+        "job_description": "A Motion Graphic Designer makes a practical and functional product as artistic and attractive to a consumer as possible. It takes creativity, consumer-savvy, and the know-how to take a product from ideation all the way to production. To break things down further, the product development usually starts with that idea.",
+        "job_responsibility": "Responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.",
+        "educational_requirement": "Honours degree to complete any reputational university.",
+        "experience": "1-2 Years in this field."
+    },
+
+    {
+        "id": "6",
+        "company_logo": "google-1-1 1.png",
+        "company_name": "Google LLC",
+        "company_email": "google@gmail.com",
+        "company_phone": "01998-654-565",
+        "job_title": "Electrical Engineer",
+        "type": "OnSite",
+        "timing": "Full Time",
+        "location": "NewYork, US",
+        "salary": "180K - 270K",
+        "job_description": "An Electrical Engineer is responsible for working in a variety of settings to build systems that collect, manage, and convert raw data into usable information for data scientists and business analysts to interpret.The ultimate goal is to make data accessible so that organizations can use it to evaluate and optimize their performance.",
+        "job_responsibility": "Handling the tasks pertaining to the technical and physical side of the database. It includes updating it regularly and fixing bugs in the program by ensuring that the experts are knowledgeable about system architecture and their responsibility is basically to take care of the database in the company.",
+        "educational_requirement": "Masters degree to complete any reputational university.",
+        "experience": "4-5 Years in this field."
     }
 ]
