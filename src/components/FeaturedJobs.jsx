@@ -5,7 +5,7 @@ const FeaturedJobs = ({featuredJobs}) => {
 
     const [jobs, setJobs] = useState([]);
     useEffect(() => {
-        const initialJobs = featuredJobs.slice(1, 5);
+        const initialJobs = featuredJobs.slice(0, 4);
         setJobs(initialJobs);
     }, [])
 

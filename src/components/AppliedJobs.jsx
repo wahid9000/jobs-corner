@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import AppliedJobsItem from './AppliedJobsItem';
 
@@ -10,7 +10,6 @@ const AppliedJobs = () => {
             <div className='pt-12 pb-12 bg-gray-100'>
                 <h2 className='text-3xl font-bold'>Applied Jobs</h2>
             </div>
-
             
             <div>
                 <div className='pt-3'>
