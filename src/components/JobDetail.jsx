@@ -35,7 +35,7 @@ const JobDetail = ({jobData, handleAppliedJobsBtn}) => {
                             <p className='py-2'><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> <span className='font-semibold'>Address</span> : {jobData.location}</p>
                         </div>   
                     </div>
-                    <Link to='/applied'><button onClick={()=>handleAppliedJobsBtn(jobData.id)} className='btn-md bg-blue-600 text-white w-[100%] mt-5'>Apply Now</button></Link> 
+                    <Link to='/applied'><button onClick={()=>handleAppliedJobsBtn(jobData.id)} className='btn-md bg-blue-600 text-white w-[100%] mt-5 hover:bg-orange-400'>Apply Now</button></Link> 
                 </div>
                 
                 

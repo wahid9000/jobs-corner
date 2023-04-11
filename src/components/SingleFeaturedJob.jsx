@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 const SingleFeaturedJob = ({singlefeaturedJob}) => {
     const {company_logo, company_name, job_title, type, timing, location, salary, id} = singlefeaturedJob;
     return (
-        <div className='px-3 py-1 hover:shadow-2xl border'>
+        <div className='px-3 py-3 hover:shadow-2xl border rounded-lg'>
             <img className='p-5 mb-3' src={company_logo} alt="" />
             <h2 className='font-bold'>{job_title}</h2>
             <p className='text-gray-400'><small>{company_name}</small></p>
@@ -19,7 +19,7 @@ const SingleFeaturedJob = ({singlefeaturedJob}) => {
               <p><FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> Salary : {salary}</p>
             </div>
 
-            <Link to={`/singlefeaturedJob/${id}`}><button className='btn-md bg-blue-600 text-white'>View Details</button></Link> 
+            <Link to={`/singlefeaturedJob/${id}`}><button className='btn-md bg-blue-600 text-white hover:bg-orange-400'>View Details</button></Link> 
             
         </div>
     );

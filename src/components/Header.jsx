@@ -18,7 +18,7 @@ const Header = () => {
                             <li><ActiveLink to="/blogs">Blog</ActiveLink></li>
                         </ul>
                     </div>
-                    <Link to="/" className="btn btn-ghost normal-case text-xl">JobsCorner</Link>
+                    <Link to="/" className="normal-case text-xl">JobsCorner</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
@@ -29,7 +29,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                <button className='btn-md btn-primary bg-blue-600 text-white'>Start Applying</button>
+                <button className='btn-md btn-primary bg-blue-600 text-white hover:bg-orange-400'>Start Applying</button>
                 </div>
             </div>
         </nav>
