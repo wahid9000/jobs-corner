@@ -3,11 +3,10 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className='bg-black text-white mt-16'>
-            <div className='grid text-center md:text-start md:grid-cols-5 gap-8 p-5 py-20 px-10'>
+            <div className='grid md:grid-cols-5 text-center md:text-start gap-8 px-10 md:px-48 py-20'>
                 <div>
                     <h2 className='text-2xl font-bold mb-5'>Jobs Corner</h2>
                     <p className='text-justify text-xs text-gray-400'>Jobs Corner is a job serching website only for you. Search Your dream job with us anytime, anywhere!</p>
-                    <img className='mt-7' src="Group 9969.png" alt="" />
                 </div>
 
                 <div className='ml-10'>
@@ -38,9 +37,9 @@ const Footer = () => {
                     <p className='text-xs my-2 text-gray-400'>+1 777 - 978 - 5570</p>
                 </div>
             </div>
-            <div className=' p-7 text-xs flex justify-between'>
+            <div className='md:px-48 pb-7 text-xs flex justify-between'>
                 <p className=' text-gray-400'>@2023 JobsCorner. All Rights Reserved</p>
-                <p className='md:mr-8 text-gray-400'>Powered By JobsCorner</p>
+                <p className='md:pr-8 text-gray-400'>Powered By JobsCorner</p>
             </div>
             
         </div>

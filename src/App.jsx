@@ -7,11 +7,13 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className='lg:px-48'>
-      <Header></Header>
-      <Outlet></Outlet>
+    <div>
+      <div className='lg:px-48'>
+        <Header></Header>
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
-
+      
       <Toaster></Toaster>
     </div>
   );
