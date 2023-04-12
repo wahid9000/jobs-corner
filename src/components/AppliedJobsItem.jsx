@@ -19,7 +19,7 @@ const AppliedJobsItem = ({appliedJob}) => {
                             <p className='border py-1 px-2 text-blue-600 rounded-md border-gray-400'>{type}</p>
                             <p className='border py-1 px-2 text-blue-600 rounded-md border-gray-400'>{timing}</p>
                         </div>
-                        <div className='flex gap-5 py-2'>
+                        <div className='flex gap-5 py-2 text-gray-600'>
                             <p><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> {location}</p>
                             <p><FontAwesomeIcon icon={faDollar}></FontAwesomeIcon> Salary : {salary}</p>
                         </div>

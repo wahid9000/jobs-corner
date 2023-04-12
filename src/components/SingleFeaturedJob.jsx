@@ -1,4 +1,4 @@
-import { faCircleDollarToSlot, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { faDollar, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
@@ -14,9 +14,9 @@ const SingleFeaturedJob = ({singlefeaturedJob}) => {
                 <p className='border py-1 px-2 text-blue-600 rounded-md border-gray-400'>{type}</p>
                 <p className='border py-1 px-2 text-blue-600 rounded-md border-gray-400'>{timing}</p>
             </div>
-            <div className='flex gap-6 my-3'>
+            <div className='flex gap-6 my-3 text-gray-600'>
               <p><FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon> {location}</p>  
-              <p><FontAwesomeIcon icon={faCircleDollarToSlot}></FontAwesomeIcon> Salary : {salary}</p>
+              <p><FontAwesomeIcon icon={faDollar}></FontAwesomeIcon> Salary : {salary}</p>
             </div>
 
             <Link to={`/singlefeaturedJob/${id}`}><button className='btn-md bg-blue-600 text-white hover:bg-orange-400'>View Details</button></Link> 
