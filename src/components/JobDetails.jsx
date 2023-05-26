@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useLocation, useParams } from 'react-router-dom';
 import JobDetail from './JobDetail';
 import { addToDb } from '../utils/fakedb';
 import { toast } from 'react-hot-toast';
+import useScrollTop from '../hooks/useScrollTop';
 
 const JobDetails = () => {
+    
+    const { pathName } = useLocation();
+    useScrollTop(pathName);
     const params = useParams();
     const jobDetails = useLoaderData();
     

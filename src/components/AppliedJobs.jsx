@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useLocation } from 'react-router-dom';
 import AppliedJobsItem from './AppliedJobsItem';
+import useScrollTop from '../hooks/useScrollTop';
 
 const AppliedJobs = () => {
+    const { pathName } = useLocation();
+    useScrollTop(pathName);
     const {appliedJobsArray} = useLoaderData(); 
 
     const [appliedJobs, setAppliedJobs] = useState(appliedJobsArray);
