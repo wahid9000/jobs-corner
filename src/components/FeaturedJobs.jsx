@@ -1,17 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import SingleFeaturedJob from './SingleFeaturedJob';
 
-const FeaturedJobs = ({featuredJobs}) => {
+const FeaturedJobs = ({ featuredJobs }) => {
 
     const [jobs, setJobs] = useState([]);
+    const [showAllJobs, setShowAllJobs] = useState(false)
+
     useEffect(() => {
         const initialJobs = featuredJobs.slice(0, 4);
         setJobs(initialJobs);
     }, [])
 
+    const handleShowLessBtn = () => {
+        const initialJobs = featuredJobs.slice(0, 4);
+        setJobs(initialJobs);
+        setShowAllJobs(false)
+    }
+
     const handleShowAllBtn = () => {
         const allJobs = featuredJobs;
-        setJobs(allJobs);
+        setJobs(allJobs)
+        setShowAllJobs(true);
     }
 
     return (
@@ -22,17 +31,26 @@ const FeaturedJobs = ({featuredJobs}) => {
             <div className='gap-8 mt-10 grid md:grid-cols-2 text-start'>
                 {
                     jobs.map(singlefeaturedJob => <SingleFeaturedJob
-                    key={singlefeaturedJob.id}
-                    singlefeaturedJob={singlefeaturedJob}
+                        key={singlefeaturedJob.id}
+                        singlefeaturedJob={singlefeaturedJob}
                     ></SingleFeaturedJob>)
                 }
             </div>
-            <div>
-                <button onClick={handleShowAllBtn} className='btn-md bg-blue-600 hover:bg-orange-400 text-white
+
+            {
+                showAllJobs ? (
+                    <button onClick={handleShowLessBtn} className='btn-md bg-blue-600 hover:bg-orange-400 text-white
+            mt-10'>Show Less Jobs</button>
+                ) : (
+                    <button onClick={handleShowAllBtn} className='btn-md bg-blue-600 hover:bg-orange-400 text-white
             mt-10'>Show All Jobs</button>
+                )
+            }
+            <div>
+
             </div>
 
-            
+
         </div>
     );
 };

@@ -10,7 +10,7 @@ const JobDetail = ({jobData, handleAppliedJobsBtn}) => {
               <h2 className='text-3xl font-bold pt-12 pb-12 bg-gray-100'>Job Details</h2>  
             </div>   
 
-            <div className='md:flex gap-16 py-8'>
+            <div className='md:flex gap-16 py-8 lg:px-48'>
 
                 <div className='text-start md:w-[60%] mb-8'>
                     <p><span className='font-bold'>Job Description :</span> {jobData.job_description}</p>

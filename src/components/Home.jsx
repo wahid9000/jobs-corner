@@ -9,8 +9,11 @@ const Home = () => {
     return (
         <div>
             <HeaderBanner></HeaderBanner>
-            <JobCategory></JobCategory>
-            <FeaturedJobs featuredJobs={featuredJobs}></FeaturedJobs>
+            <div className='lg:px-48'>
+                <JobCategory></JobCategory>
+                <FeaturedJobs featuredJobs={featuredJobs}></FeaturedJobs>
+            </div>
+
         </div>
     );
 };
