@@ -11,15 +11,14 @@ const AppliedJobs = () => {
     const [appliedJobs, setAppliedJobs] = useState(appliedJobsArray);
 
     const handleRemoteBtn = () => {
-        const remoteJobs = appliedJobs.filter(job => job.type === "Remote");
+        const remoteJobs = appliedJobsArray.filter(job => job.type === "Remote");
         setAppliedJobs(remoteJobs);
     }
 
     const handleOnsiteBtn = () => {
-        const onsiteJobs = appliedJobs.filter(job=> job.type === "Onsite");
+        const onsiteJobs = appliedJobsArray.filter(job=> job.type === "Onsite");
         setAppliedJobs(onsiteJobs);
     }
-
 
 
     return (
@@ -27,7 +26,7 @@ const AppliedJobs = () => {
             <div className='pt-12 pb-12 bg-gray-100'>
                 <h2 className='text-3xl font-bold'>Applied Jobs</h2>
             </div>
-            <div className='text-white'>
+            <div className='text-white my-6'>
                 <button onClick={handleRemoteBtn} className='bg-blue-600 mr-2'>Filter By Remote Jobs</button>
                 <button onClick={handleOnsiteBtn} className='bg-blue-600 mr-2'>Filter By Onsite Jobs</button>
             </div>
@@ -40,7 +39,7 @@ const AppliedJobs = () => {
                         appliedJobs.map(appliedJob => <AppliedJobsItem
                         key={appliedJob.id}
                         appliedJob = {appliedJob}
-                        ></AppliedJobsItem>)
+                        ></AppliedJobsItem>) 
                     }
                 </div>
             </div>
